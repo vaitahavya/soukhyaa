@@ -172,7 +172,7 @@ const ContactSection = () => {
                     Message Sent Successfully!
                   </h4>
                   <p className="text-gray-600 mb-6">
-                    Thank you for your inquiry. We'll get back to you within 24 hours.
+                    Thank you for your inquiry. We&apos;ll get back to you within 24 hours.
                   </p>
                   <button
                     onClick={() => setIsSubmitted(false)}

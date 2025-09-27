@@ -69,7 +69,7 @@ const AboutSection = () => {
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Our commitment extends beyond just providing uniforms. We understand the critical 
-              role healthcare professionals play in society, and we're dedicated to supporting 
+              role healthcare professionals play in society, and we&apos;re dedicated to supporting 
               them with apparel that enhances their performance and confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

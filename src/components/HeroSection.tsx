@@ -1,7 +1,6 @@
 'use client';
 
 import { ArrowRight, Users } from 'lucide-react';
-import Image from 'next/image';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {

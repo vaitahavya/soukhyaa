@@ -1,7 +1,6 @@
 'use client';
 
 import { Shield, Ruler, Thermometer, DollarSign, Palette, Award } from 'lucide-react';
-import Image from 'next/image';
 
 const WhyChooseSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -138,8 +137,8 @@ const WhyChooseSection = () => {
                   </div>
                 </div>
                 <blockquote className="text-lg leading-relaxed">
-                  "Soukhyaa has been our trusted partner for over 5 years. Their uniforms are comfortable, 
-                  durable, and maintain their professional appearance even after countless washes."
+                  &ldquo;Soukhyaa has been our trusted partner for over 5 years. Their uniforms are comfortable, 
+                  durable, and maintain their professional appearance even after countless washes.&rdquo;
                 </blockquote>
                 <div className="text-blue-200 text-sm mt-4">City General Hospital</div>
               </div>
@@ -159,8 +158,8 @@ const WhyChooseSection = () => {
                   </div>
                 </div>
                 <blockquote className="text-lg leading-relaxed">
-                  "The quality and service are unmatched. Our nursing staff loves the comfort and style 
-                  of Soukhyaa uniforms. They make us feel confident and professional."
+                  &ldquo;The quality and service are unmatched. Our nursing staff loves the comfort and style 
+                  of Soukhyaa uniforms. They make us feel confident and professional.&rdquo;
                 </blockquote>
                 <div className="text-emerald-200 text-sm mt-4">Metro Health Center</div>
               </div>
