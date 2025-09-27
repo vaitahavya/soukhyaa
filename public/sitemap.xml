@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://soukhyaa.com/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://soukhyaa.com/logos/Soukhyaa%20logo.png</image:loc>
+      <image:title>Soukhyaa - Premium Hospital Uniforms</image:title>
+      <image:caption>Leading provider of hospital uniforms and medical apparel in India</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://soukhyaa.com/#about</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products Section -->
+  <url>
+    <loc>https://soukhyaa.com/#products</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://soukhyaa.com/images/doctor-coat.jpg</image:loc>
+      <image:title>Premium Doctor Coats</image:title>
+      <image:caption>Professional doctor coats with stain-resistant fabric</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://soukhyaa.com/images/nursing-scrubs.jpg</image:loc>
+      <image:title>Nursing Scrubs</image:title>
+      <image:caption>Comfortable nursing scrubs for healthcare professionals</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://soukhyaa.com/images/lab-coat.jpg</image:loc>
+      <image:title>Lab Coats & Technician Wear</image:title>
+      <image:caption>Protective lab coats for laboratory and technical staff</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://soukhyaa.com/images/support-uniform.jpg</image:loc>
+      <image:title>Support Staff Uniforms</image:title>
+      <image:caption>Durable uniforms for hospital support staff</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://soukhyaa.com/images/custom-uniform.jpg</image:loc>
+      <image:title>Customized Uniforms</image:title>
+      <image:caption>Personalized uniforms with logos and embroidery</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://soukhyaa.com/images/specialized-wear.jpg</image:loc>
+      <image:title>Specialized Medical Wear</image:title>
+      <image:caption>Specialized uniforms for different medical departments</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://soukhyaa.com/#contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
+

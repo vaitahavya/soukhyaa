@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Soukhyaa - Hospital Uniforms Website
+
+A modern, responsive single-page website for Soukhyaa, a premium hospital uniform brand. Built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Single Page Application**: All content on one scrollable page with smooth navigation
+- **Contact Form**: Functional contact form with API integration
+- **SEO Optimized**: Meta tags, structured data, and performance optimized
+- **Accessibility**: WCAG compliant with proper semantic HTML
+
+## Sections
+
+1. **Hero Section**: Eye-catching banner with call-to-action buttons
+2. **About Us**: Company mission, values, and statistics
+3. **Products**: Comprehensive product categories with features
+4. **Why Choose Us**: Key differentiators and customer testimonials
+5. **Industries**: Served industries with specific solutions
+6. **Contact**: Contact form, business information, and final CTA
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Package Manager**: Bun
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ or Bun
+- Git
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd soukhyaa
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+bun install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server:
+```bash
+bun run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.ts          # Contact form API endpoint
+│   ├── globals.css               # Global styles
+│   ├── layout.tsx                # Root layout with metadata
+│   └── page.tsx                  # Main page component
+├── components/
+│   ├── AboutSection.tsx          # About us section
+│   ├── ContactSection.tsx        # Contact form and info
+│   ├── Footer.tsx                # Footer component
+│   ├── HeroSection.tsx           # Hero banner section
+│   ├── IndustriesSection.tsx     # Industries served section
+│   ├── Navigation.tsx            # Sticky navigation
+│   ├── ProductsSection.tsx       # Products showcase
+│   └── WhyChooseSection.tsx      # Why choose us section
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Colors
+The website uses a healthcare-focused color palette:
+- Primary: Blue (#2563eb)
+- Secondary: Green (#16a34a)
+- Accent: Purple, Orange, Pink, Indigo
+- Neutral: Gray scale
 
-## Deploy on Vercel
+### Content
+All content can be easily customized by editing the respective component files in the `src/components/` directory.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Contact Information
+Update contact details in:
+- `ContactSection.tsx` - Contact form and business info
+- `Footer.tsx` - Footer contact information
+- `layout.tsx` - Meta tags and SEO information
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Form Integration
+
+The contact form is set up with a basic API endpoint at `/api/contact`. To fully integrate:
+
+1. **Email Service**: Add email service like SendGrid, Resend, or Nodemailer
+2. **Database**: Add database integration for storing inquiries
+3. **Validation**: Enhance form validation and error handling
+4. **Notifications**: Add admin notifications for new inquiries
+
+## Deployment
+
+### Vercel (Recommended)
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Deploy automatically
+
+### Other Platforms
+The app can be deployed to any platform that supports Next.js:
+- Netlify
+- AWS Amplify
+- Railway
+- DigitalOcean App Platform
+
+## Performance
+
+- **Lighthouse Score**: Optimized for 90+ scores
+- **Core Web Vitals**: Fast loading and smooth interactions
+- **Image Optimization**: Next.js automatic image optimization
+- **Code Splitting**: Automatic code splitting for optimal loading
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is proprietary to Soukhyaa. All rights reserved.
+
+## Support
+
+For technical support or questions, contact:
+- Email: info@soukhyaa.com
+- Phone: 8885048090
+- Website: https://soukhyaa.com
