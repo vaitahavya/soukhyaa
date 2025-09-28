@@ -140,49 +140,69 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Lifestyle Images */}
             <div className="group">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl h-64 flex items-center justify-center overflow-hidden">
-                <div className="text-center text-white">
-                  <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                    <div className="text-3xl">👨‍⚕️</div>
-                  </div>
-                  <div className="text-lg font-semibold">Doctor Consultation</div>
+              <div className="relative rounded-2xl h-64 overflow-hidden">
+                <Image
+                  src="/images/doctor uniform 2.jpg"
+                  alt="Doctor in professional uniform providing consultation"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <div className="text-lg font-semibold text-white">Doctor Consultation</div>
                   <div className="text-blue-100 text-sm">Professional Excellence</div>
                 </div>
               </div>
             </div>
             
             <div className="group">
-              <div className="bg-gradient-to-br from-green-500 to-emerald-700 rounded-2xl h-64 flex items-center justify-center overflow-hidden">
-                <div className="text-center text-white">
-                  <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                    <div className="text-3xl">👩‍⚕️</div>
-                  </div>
-                  <div className="text-lg font-semibold">Nursing Care</div>
+              <div className="relative rounded-2xl h-64 overflow-hidden">
+                <Image
+                  src="/images/Nurses uniform.jpg"
+                  alt="Nurse in uniform providing patient care"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <div className="text-lg font-semibold text-white">Nursing Care</div>
                   <div className="text-green-100 text-sm">Comfort & Mobility</div>
                 </div>
               </div>
             </div>
             
             <div className="group">
-              <div className="bg-gradient-to-br from-purple-500 to-indigo-700 rounded-2xl h-64 flex items-center justify-center overflow-hidden">
-                <div className="text-center text-white">
-                  <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                    <div className="text-3xl">🧪</div>
-                  </div>
-                  <div className="text-lg font-semibold">Lab Work</div>
+              <div className="relative rounded-2xl h-64 overflow-hidden">
+                <Image
+                  src="/images/lab coat 2.jpg"
+                  alt="Lab technician in protective lab coat"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <div className="text-lg font-semibold text-white">Lab Work</div>
                   <div className="text-purple-100 text-sm">Precision & Safety</div>
                 </div>
               </div>
             </div>
             
             <div className="group">
-              <div className="bg-gradient-to-br from-orange-500 to-red-700 rounded-2xl h-64 flex items-center justify-center overflow-hidden">
-                <div className="text-center text-white">
-                  <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                    <div className="text-3xl">🚑</div>
-                  </div>
-                  <div className="text-lg font-semibold">Emergency Care</div>
-                  <div className="text-orange-100 text-sm">Reliability & Durability</div>
+              <div className="relative rounded-2xl h-64 overflow-hidden">
+                <Image
+                  src="/images/patient room bedding.jpg"
+                  alt="Hospital patient room with premium bedding"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <div className="text-lg font-semibold text-white">Patient Comfort</div>
+                  <div className="text-orange-100 text-sm">Premium Bedding</div>
                 </div>
               </div>
             </div>

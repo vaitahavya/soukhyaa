@@ -44,9 +44,9 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "Doctor Coats",
-            "description": "Crisp, professional, stain-resistant coats designed for comfort during long shifts.",
-            "image": "https://soukhyaa.com/images/doctor-coat.jpg",
+            "name": "Doctor Uniforms",
+            "description": "Crisp, professional, stain-resistant doctor uniforms designed for comfort during long shifts.",
+            "image": "https://soukhyaa.com/images/doctor uniform 1.jpg",
             "category": "Medical Apparel"
           }
         },
@@ -54,9 +54,9 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "Nursing Scrubs",
-            "description": "Lightweight, multiple colors, long-shift friendly scrubs for healthcare professionals.",
-            "image": "https://soukhyaa.com/images/nursing-scrubs.jpg",
+            "name": "Nursing Uniforms",
+            "description": "Lightweight, multiple colors, long-shift friendly nursing uniforms for healthcare professionals.",
+            "image": "https://soukhyaa.com/images/nurses uniform 1.jpg",
             "category": "Medical Apparel"
           }
         },
@@ -64,9 +64,9 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "Lab Coats & Technician Wear",
-            "description": "Protective and practical wear for laboratory and technical staff.",
-            "image": "https://soukhyaa.com/images/lab-coat.jpg",
+            "name": "Lab Coats",
+            "description": "Protective and practical lab coats for laboratory and technical staff.",
+            "image": "https://soukhyaa.com/images/lab coat 1.jpg",
             "category": "Medical Apparel"
           }
         },
@@ -74,9 +74,9 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "Support Staff Uniforms",
-            "description": "Durable and easy-care uniforms for hospital support staff.",
-            "image": "https://soukhyaa.com/images/support-uniform.jpg",
+            "name": "Theatre Coats",
+            "description": "Specialized theatre coats for surgical and operating room staff.",
+            "image": "https://soukhyaa.com/images/theatre coat2.jpg",
             "category": "Medical Apparel"
           }
         },
@@ -84,9 +84,9 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "Customized Uniforms",
-            "description": "Personalized uniforms with logos, embroidery, and hospital branding.",
-            "image": "https://soukhyaa.com/images/custom-uniform.jpg",
+            "name": "Patient Gowns",
+            "description": "Comfortable and functional patient gowns for healthcare facilities.",
+            "image": "https://soukhyaa.com/images/patient gown.jpg",
             "category": "Medical Apparel"
           }
         },
@@ -94,9 +94,9 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "Specialized Wear",
-            "description": "Specialized uniforms for different medical departments and requirements.",
-            "image": "https://soukhyaa.com/images/specialized-wear.jpg",
+            "name": "Hospital Bedding",
+            "description": "Premium hospital bedding and linens for patient comfort and care.",
+            "image": "https://soukhyaa.com/images/hospital bedding.jpg",
             "category": "Medical Apparel"
           }
         }

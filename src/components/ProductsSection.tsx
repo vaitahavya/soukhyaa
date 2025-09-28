@@ -13,57 +13,57 @@ const ProductsSection = () => {
   const products = [
     {
       icon: Stethoscope,
-      title: 'Doctor Coats',
-      description: 'Crisp, professional, stain-resistant coats designed for comfort during long shifts.',
+      title: 'Doctor Uniforms',
+      description: 'Crisp, professional, stain-resistant doctor uniforms designed for comfort during long shifts.',
       features: ['Stain-resistant fabric', 'Multiple sizes', 'Professional appearance', 'Easy care'],
       color: 'from-blue-500 to-blue-600',
-      image: '/images/doctor-coat.jpg',
+      image: '/images/doctor uniform 1.jpg',
       emoji: '👨‍⚕️'
     },
     {
       icon: Heart,
-      title: 'Nursing Scrubs',
-      description: 'Lightweight, multiple colors, long-shift friendly scrubs for healthcare professionals.',
+      title: 'Nursing Uniforms',
+      description: 'Lightweight, multiple colors, long-shift friendly nursing uniforms for healthcare professionals.',
       features: ['Lightweight material', 'Multiple colors', 'Comfortable fit', 'Durable construction'],
       color: 'from-green-500 to-green-600',
-      image: '/images/nursing-scrubs.jpg',
+      image: '/images/nurses uniform 1.jpg',
       emoji: '👩‍⚕️'
     },
     {
       icon: Microscope,
-      title: 'Lab Coats & Technician Wear',
-      description: 'Protective and practical wear for laboratory and technical staff.',
+      title: 'Lab Coats',
+      description: 'Protective and practical lab coats for laboratory and technical staff.',
       features: ['Protective design', 'Practical pockets', 'Easy maintenance', 'Professional look'],
       color: 'from-purple-500 to-purple-600',
-      image: '/images/lab-coat.jpg',
+      image: '/images/lab coat 1.jpg',
       emoji: '🧪'
     },
     {
       icon: Users,
-      title: 'Support Staff Uniforms',
-      description: 'Durable and easy-care uniforms for hospital support staff.',
-      features: ['Durable material', 'Easy care', 'Comfortable design', 'Professional appearance'],
+      title: 'Theatre Coats',
+      description: 'Specialized theatre coats for surgical and operating room staff.',
+      features: ['Sterile design', 'High-quality material', 'Comfortable fit', 'Professional appearance'],
       color: 'from-orange-500 to-orange-600',
-      image: '/images/support-uniform.jpg',
-      emoji: '👨‍💼'
+      image: '/images/theatre coat2.jpg',
+      emoji: '🏥'
     },
     {
       icon: Palette,
-      title: 'Customized Uniforms',
-      description: 'Personalized uniforms with logos, embroidery, and hospital branding.',
-      features: ['Custom embroidery', 'Logo placement', 'Brand colors', 'Personalized design'],
+      title: 'Patient Gowns',
+      description: 'Comfortable and functional patient gowns for healthcare facilities.',
+      features: ['Comfortable design', 'Easy care', 'Multiple sizes', 'Durable material'],
       color: 'from-pink-500 to-pink-600',
-      image: '/images/custom-uniform.jpg',
-      emoji: '🎨'
+      image: '/images/patient gown.jpg',
+      emoji: '🩺'
     },
     {
       icon: Shield,
-      title: 'Specialized Wear',
-      description: 'Specialized uniforms for different medical departments and requirements.',
-      features: ['Department-specific', 'Specialized features', 'Enhanced protection', 'Custom fit'],
+      title: 'Hospital Bedding',
+      description: 'Premium hospital bedding and linens for patient comfort and care.',
+      features: ['Hypoallergenic material', 'Easy cleaning', 'Comfortable design', 'Durable construction'],
       color: 'from-indigo-500 to-indigo-600',
-      image: '/images/specialized-wear.jpg',
-      emoji: '🛡️'
+      image: '/images/hospital bedding.jpg',
+      emoji: '🛏️'
     }
   ];
 

@@ -88,14 +88,16 @@ const HeroSection = () => {
               {/* Main Product Card */}
               <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <div className="relative rounded-2xl h-64 overflow-hidden">
-                  {/* Doctor Coat Image */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-blue-800 flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <div className="text-4xl">👨‍⚕️</div>
+                  {/* Doctor Uniform Image */}
+                  <div className="absolute inset-0">
+                    <div className="w-full h-full bg-gradient-to-br from-slate-700 to-blue-800 flex items-center justify-center">
+                      <div className="text-center text-white">
+                        <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
+                          <div className="text-4xl">👨‍⚕️</div>
+                        </div>
+                        <div className="text-xl font-semibold">Premium Doctor Uniform</div>
+                        <div className="text-cyan-100">Professional Excellence</div>
                       </div>
-                      <div className="text-xl font-semibold">Premium Doctor Coat</div>
-                      <div className="text-cyan-100">Professional Excellence</div>
                     </div>
                   </div>
                 </div>

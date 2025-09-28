@@ -30,34 +30,34 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://soukhyaa.com/images/doctor-coat.jpg</image:loc>
-      <image:title>Premium Doctor Coats</image:title>
-      <image:caption>Professional doctor coats with stain-resistant fabric</image:caption>
+      <image:loc>https://soukhyaa.com/images/doctor uniform 1.jpg</image:loc>
+      <image:title>Premium Doctor Uniforms</image:title>
+      <image:caption>Professional doctor uniforms with stain-resistant fabric</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://soukhyaa.com/images/nursing-scrubs.jpg</image:loc>
-      <image:title>Nursing Scrubs</image:title>
-      <image:caption>Comfortable nursing scrubs for healthcare professionals</image:caption>
+      <image:loc>https://soukhyaa.com/images/nurses uniform 1.jpg</image:loc>
+      <image:title>Nursing Uniforms</image:title>
+      <image:caption>Comfortable nursing uniforms for healthcare professionals</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://soukhyaa.com/images/lab-coat.jpg</image:loc>
-      <image:title>Lab Coats & Technician Wear</image:title>
+      <image:loc>https://soukhyaa.com/images/lab coat 1.jpg</image:loc>
+      <image:title>Lab Coats</image:title>
       <image:caption>Protective lab coats for laboratory and technical staff</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://soukhyaa.com/images/support-uniform.jpg</image:loc>
-      <image:title>Support Staff Uniforms</image:title>
-      <image:caption>Durable uniforms for hospital support staff</image:caption>
+      <image:loc>https://soukhyaa.com/images/theatre coat2.jpg</image:loc>
+      <image:title>Theatre Coats</image:title>
+      <image:caption>Specialized theatre coats for surgical and operating room staff</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://soukhyaa.com/images/custom-uniform.jpg</image:loc>
-      <image:title>Customized Uniforms</image:title>
-      <image:caption>Personalized uniforms with logos and embroidery</image:caption>
+      <image:loc>https://soukhyaa.com/images/patient gown.jpg</image:loc>
+      <image:title>Patient Gowns</image:title>
+      <image:caption>Comfortable and functional patient gowns for healthcare facilities</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://soukhyaa.com/images/specialized-wear.jpg</image:loc>
-      <image:title>Specialized Medical Wear</image:title>
-      <image:caption>Specialized uniforms for different medical departments</image:caption>
+      <image:loc>https://soukhyaa.com/images/hospital bedding.jpg</image:loc>
+      <image:title>Hospital Bedding</image:title>
+      <image:caption>Premium hospital bedding and linens for patient comfort</image:caption>
     </image:image>
   </url>
 
