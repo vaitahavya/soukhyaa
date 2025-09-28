@@ -1,6 +1,7 @@
 'use client';
 
 import { ArrowRight, Users } from 'lucide-react';
+import Image from 'next/image';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -90,14 +91,17 @@ const HeroSection = () => {
                 <div className="relative rounded-2xl h-64 overflow-hidden">
                   {/* Doctor Uniform Image */}
                   <div className="absolute inset-0">
-                    <div className="w-full h-full bg-gradient-to-br from-slate-700 to-blue-800 flex items-center justify-center">
-                      <div className="text-center text-white">
-                        <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                          <div className="text-4xl">👨‍⚕️</div>
-                        </div>
-                        <div className="text-xl font-semibold">Premium Doctor Uniform</div>
-                        <div className="text-cyan-100">Professional Excellence</div>
-                      </div>
+                    <Image
+                      src="/images/doctor uniform 1.jpg"
+                      alt="Premium Doctor Uniform - Professional Excellence"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <div className="text-xl font-semibold text-white">Premium Doctor Uniform</div>
+                      <div className="text-cyan-100 text-sm">Professional Excellence</div>
                     </div>
                   </div>
                 </div>
