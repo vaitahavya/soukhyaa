@@ -41,7 +41,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="text-left">
             {/* Premium Badge */}
-            <div className="inline-flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-8">
+            <div className="inline-flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-12 md:mb-16">
               <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3 animate-pulse"></div>
               <span className="text-cyan-200 text-sm font-medium tracking-wide">PREMIUM HEALTHCARE APPAREL</span>
             </div>
