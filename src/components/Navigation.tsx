@@ -59,7 +59,7 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-12 flex items-baseline space-x-10">
               {navItems.map((item) => (
                 <button
                   key={item.id}

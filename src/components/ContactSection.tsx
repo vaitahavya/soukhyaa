@@ -88,12 +88,12 @@ const ContactSection = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-20">
-          <div className="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full px-6 py-2 mb-6">
+          <div className="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full px-6 py-2 mb-8">
             <span className="text-sm font-semibold tracking-wide">GET IN TOUCH</span>
           </div>
           
           {/* Logo */}
-          <div className="relative h-16 w-48 mx-auto mb-6">
+          <div className="relative h-16 w-48 mx-auto mb-8">
             <Image
               src="/logos/Soukhyaa logo.png"
               alt="Soukhyaa Logo"
@@ -102,7 +102,7 @@ const ContactSection = () => {
             />
           </div>
           
-          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 bg-clip-text text-transparent mb-6">
+          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 bg-clip-text text-transparent mb-8">
             Contact Us
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-cyan-500 to-blue-600 mx-auto mb-8 rounded-full"></div>
